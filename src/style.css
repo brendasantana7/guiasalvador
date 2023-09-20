@@ -1,3 +1,8 @@
+body{
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+  line-height: 1.6;
+  background: #F1FAEE url(./img/ruido.png);
+}
 .container {
   margin: 0 auto;
   width: 960px;
