@@ -1,0 +1,77 @@
+.container {
+  margin: 0 auto;
+  width: 960px;
+  /* border: 1px solid green; */
+}
+
+.cards {
+  background-color: #FFF;
+  border-color: #CCC #999 #999 #CCC;
+  border: 1px solid #CCC;
+  margin-bottom: 20px;
+  padding: 10px;
+  height: 260px;
+}
+
+.clear {
+  clear: both;
+}
+
+.cards h2 {
+  border-bottom: 1px dashed #E63946;
+  margin: 0;
+}
+
+.cards a {
+  color: #2C88A7;
+  font-weight: bold;
+}
+
+h2 a {
+  color: #E63946;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  padding: 4px;
+  background-color: #E63946;
+  color: #fff;
+  border-radius: 2px;
+  translate: 0.2s ease-in-out;
+}
+
+.cards img {
+  border: 1px solid #E63946;
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 2px;
+}
+
+.places{
+  background-color: #E63946;
+  float: right;
+  width: 660px;
+}
+.sidenote {
+  background-color: #FFFBE4;
+  border: 1px solid #C9BC8F;
+  padding: 10px;
+  float: right;
+  padding: 10px;
+  width: 260px;
+}
+
+.sidenote h3 {
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.sidenote ol {
+  font-size: 12px;
+}
+
+.footer {
+  font-size: 12px;
+  text-align: center;
+}
+  
