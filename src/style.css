@@ -1,64 +1,65 @@
-body{
-  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", "Arial",
+    "sans-serif";
   line-height: 1.6;
-  background: #F1FAEE url(./img/ruido.png);
+  background: #f1faee url(./img/ruido.png);
 }
 .container {
   margin: 0 auto;
   width: 960px;
-  /* border: 1px solid green; */
+}
+.container h2 a {
+  color: #e63946;
+  text-decoration: none;
 }
 
-.cards {
-  background-color: #FFF;
-  border-color: #CCC #999 #999 #CCC;
-  border: 1px solid #CCC;
+.container h2 a:hover {
+  padding: 4px;
+  background-color: #e63946;
+  color: #fff;
+  border-radius: 2px;
+  translate: 0.2s ease-in-out;
+}
+.item {
+  margin-top: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  border-color: #ccc #999 #999 #ccc;
+  border: 1px solid #ccc;
   margin-bottom: 20px;
   padding: 10px;
   height: 260px;
 }
 
-.clear {
-  clear: both;
-}
-
-.cards h2 {
-  border-bottom: 1px dashed #E63946;
+.card h2 {
+  border-bottom: 1px dashed #e63946;
   margin: 0;
 }
 
-.cards a {
-  color: #2C88A7;
+.card a {
+  color: #2c88a7;
   font-weight: bold;
 }
 
-h2 a {
-  color: #E63946;
-  text-decoration: none;
-}
-
-h2 a:hover {
-  padding: 4px;
-  background-color: #E63946;
-  color: #fff;
-  border-radius: 2px;
-  translate: 0.2s ease-in-out;
-}
-
-.cards img {
-  border: 1px solid #E63946;
+.card img {
+  border: 1px solid #e63946;
   float: left;
   margin: 10px 10px 0 0;
   padding: 2px;
+  height: 156px;
+  width: 156px;
 }
-
-.places{
+.places {
   float: right;
   width: 660px;
 }
 .sidenote {
-  background-color: #FFFBE4;
-  border: 1px solid #C9BC8F;
+  background-color: #fffbe4;
+  border: 1px solid #c9bc8f;
   padding: 10px;
   float: right;
   padding: 10px;
@@ -78,4 +79,3 @@ h2 a:hover {
   font-size: 12px;
   text-align: center;
 }
-  
